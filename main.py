@@ -6,7 +6,7 @@ import imutils
 from matplotlib import pyplot as pl
 
 # download video from https://disk.yandex.ru/i/eyo02g8TmX8qPg or try use another video file
-VIDEO_PATH = 'videos/Traffic Flow In The Highway.mp4'
+VIDEO_PATH = 'Traffic Flow In The Highway.mp4'
 video_capture = cv.VideoCapture(VIDEO_PATH)
 
 while True:
